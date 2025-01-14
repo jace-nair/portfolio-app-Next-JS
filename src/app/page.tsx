@@ -1,12 +1,13 @@
 import { Header } from "@/sections/Header";
-import { Hero } from "@/sections/Hero";
-import Image from "next/image";
+import { HeroSection } from "@/sections/Hero";
+import { ProjectsSection } from "@/sections/Projects";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Hero />
+      <HeroSection/>
+      <ProjectsSection />
     </div>
   );
 }
